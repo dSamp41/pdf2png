@@ -62,3 +62,5 @@ def pdf2png(path: PathLike):
         os.remove(outputFileName)
 
         print(f"Created: {outputFileName}")
+        
+    return path
